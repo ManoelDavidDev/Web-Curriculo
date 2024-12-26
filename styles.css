@@ -1,0 +1,339 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #1c1c1c;
+    color: #fff;
+    line-height: 1.6;
+}
+
+.resume {
+    display: flex;
+    max-width: 1000px;
+    margin: 20px auto;
+    background-color: #2b2b2b;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.coluna-esquerda {
+    width: 35%;
+    background-color: #1e1e1e;
+    padding: 20px;
+    text-align: center;
+}
+
+.foto-perfil {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 2px solid #00ffcc;
+    object-fit: cover;
+}
+
+.perfil h1 {
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+
+.perfil p {
+    font-size: 14px;
+    color: #ccc;
+    margin-bottom: 20px;
+}
+
+.Contato {
+    margin-top: 20px;
+    text-align: left;
+}
+
+.Contato h2 {
+    font-size: 18px;
+    border-bottom: 1px solid #444;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.Contato p,
+.Contato a {
+    font-size: 14px;
+    margin: 5px 0;
+    color: #ccc;
+    text-decoration: none;
+}
+
+.Contato a:hover {
+    color: #00ffcc;
+    text-decoration: underline;
+}
+
+.SobreMim {
+    margin-top: 20px;
+    text-align: left;
+}
+
+.SobreMim p {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.Tecnologias {
+    margin-top: 20px;
+    text-align: left;
+}
+
+.Tecnologias h2 {
+    font-size: 18px;
+    border-bottom: 1px solid #444;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.Tecnologias ul {
+    list-style: none;
+    margin-left: 0;
+}
+
+.Tecnologias li {
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+.coluna-direita {
+    width: 65%;
+    padding: 20px;
+    text-align: left;
+}
+
+.coluna-direita h1,
+.coluna-direita h2 {
+    font-size: 18px;
+    border-bottom: 1px solid #444;
+    padding-bottom: 5px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.coluna-direita p {
+    font-size: 14px;
+    margin: 10px 0;
+}
+
+.experiencia p {
+    margin-bottom: 15px;
+}
+
+.formacao p {
+    margin: 5px 0;
+}
+
+.interesses p {
+    margin: 5px 0;
+}
+
+.referencias p {
+    margin: 5px 0;
+}
+
+@media (max-width: 768px) {
+    .resume { 
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .coluna-esquerda,
+    .coluna-direita {
+        width: 100%;
+    }
+
+    .foto-perfil {
+        width: 100px;
+        height: 100px;
+    }
+
+    .perfil h1 {
+        font-size: 20px;
+    }
+
+    .Contato h2,
+    .Tecnologias h2 {
+        font-size: 16px;
+    }
+
+    .Contato p,
+    .Tecnologias li,
+    .formacao p,
+    .experiencia p {
+        font-size: 13px;
+    }
+
+    .download-cv a {
+        font-size: 14px;
+        padding: 8px 16px;
+    }
+
+    .Contato a {
+        display: inline-block;
+        margin-top: 5px;
+    }
+
+    .Tecnologias li::before {
+        font-size: 16px;
+    }
+
+    .left-column {
+        text-align: center;
+    }
+
+    .Contato,
+    .SobreMim,
+    .Tecnologias {
+        text-align: center;
+    }
+}
+
+.resume {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    border: 1px solid #333;
+}
+
+.coluna-esquerda {
+    border-right: 1px solid #444;
+}
+
+.coluna-esquerda,
+.coluna-direita {
+    padding: 25px;
+}
+
+h1, h2 {
+    color: #00ffcc;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+a {
+    color: #00ffcc;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #fff;
+}
+
+.Contato p i, .Contato a i {
+    margin-right: 8px;
+    color: #00ffcc;
+    font-size: 1.2em;
+}
+
+.Contato a {
+    display: block;
+    margin-top: 10px;
+    color: #00ffcc;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.Contato a:hover {
+    color: #fff;
+}
+
+.Tecnologias li::before {
+    content: "💻 ";
+    margin-right: 5px;
+}
+
+.download-cv {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.download-cv a {
+    background-color: #00ffcc;
+    color: #1c1c1c;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 5px;
+    display: inline-block;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.download-cv a:hover {
+    background-color: #00997a;
+    color: #fff;
+}
+
+/* ======= RESPONSIVIDADE ======= */
+@media (max-width: 768px) {
+    .resume {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .coluna-esquerda, .coluna-direita {
+        width: 50%;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+
+    .perfil img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .perfil h1 {
+        font-size: 1.3em;
+    }
+
+    .Contato p, .SobreMim p, .Tecnologias ul, .experiencia p, .formacao p, .interesses p, .referencias p {
+        font-size: 0.9em;
+    }
+
+    .download-cv a {
+        padding: 8px;
+        font-size: 0.9em;
+    }
+}
+
+@media (max-width: 480px) {
+    .resume {
+        flex-direction: column;
+    }
+
+    .coluna-esquerda, .coluna-direita {
+        width: 100%;
+    }
+
+    .perfil img {
+        width: 80px;
+        height: 80px;
+    }
+
+    .perfil h1 {
+        font-size: 1.1em;
+    }
+
+    .Contato p, .SobreMim p, .Tecnologias ul, .experiencia p, .formacao p, .interesses p, .referencias p {
+        font-size: 0.8em;
+    }
+
+    .download-cv a {
+        padding: 6px;
+        font-size: 0.8em;
+    }
+}
+
+
