@@ -1,33 +1,52 @@
-📄 Currículo Online - Manoel David
-Um site pessoal responsivo desenvolvido em HTML e CSS, com seções que detalham informações sobre experiência profissional, formação acadêmica, habilidades técnicas e informações de contato.
+# 📄 **Currículo Online - Manoel David**  
 
-🚀 Tecnologias Utilizadas
-HTML5
-CSS3
-Font Awesome (Ícones)
-📚 Seções do Currículo
-Perfil Pessoal: Foto, nome e título profissional.
-Contato: Informações de contato com ícones interativos.
-Sobre Mim: Um resumo pessoal e profissional.
-Tecnologias: Habilidades técnicas principais.
-Experiência: Detalhes das experiências profissionais.
-Estudos - Cursos: Lista de cursos realizados.
-Interesses: Áreas de interesse.
-Referências: Recomendações e contatos de referência.
-Download Currículo: Botão para baixar o currículo em PDF.
-📱 Responsividade
+Um site pessoal responsivo desenvolvido em **HTML** e **CSS**, com seções que detalham informações sobre experiência profissional, formação acadêmica, habilidades técnicas e informações de contato.
+
+---
+
+## 🚀 **Tecnologias Utilizadas**  
+
+- **HTML5**  
+- **CSS3**  
+- **Font Awesome (Ícones)**  
+
+---
+
+## 📚 **Seções do Currículo**  
+
+1. **Perfil Pessoal:** Foto, nome e título profissional.  
+2. **Contato:** Informações de contato com ícones interativos.  
+3. **Sobre Mim:** Um resumo pessoal e profissional.  
+4. **Tecnologias:** Habilidades técnicas principais.  
+5. **Experiência:** Detalhes das experiências profissionais.  
+6. **Estudos - Cursos:** Lista de cursos realizados.  
+7. **Interesses:** Áreas de interesse.  
+8. **Referências:** Recomendações e contatos de referência.  
+9. **Download Currículo:** Botão para baixar o currículo em PDF.  
+
+---
+
+## 📱 **Responsividade**  
+
 O projeto foi otimizado para funcionar corretamente em dispositivos móveis, mantendo a estrutura em colunas e adaptando-se a telas menores.
 
-🛠️ Como Executar o Projeto
+---
+
+## 🛠️ **Como Executar o Projeto**  
+
 https://webcurriculo-manoeldavid.vercel.app/
 
-📥 Download do Currículo
+---
+
+📥 *Download do Currículo*
 O currículo está disponível para download diretamente no site através do botão:
 
-🔗 Links Úteis
+## 🔗 **Links Úteis**
 Meu GitHub
 
-🧑‍💻 Autor
+---
+
+## 🧑‍💻 **Autor**
 Manoel David
 
 📧 david240oliveira@gmail.com
